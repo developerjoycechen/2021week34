@@ -1,0 +1,1288 @@
+@charset "UTF-8";
+body {
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0; }
+
+li {
+  list-style: none; }
+
+a, a:hover {
+  text-decoration: none; }
+
+.textColor__1st100 {
+  color: #FBF2F2; }
+
+.textColor__1st200 {
+  color: #9F1213; }
+
+.textColor__1st300 {
+  color: #AA0601; }
+
+.textColor__1st400 {
+  color: #650300; }
+
+.textColor__2nd100 {
+  color: #F2F2F2; }
+
+.textColor__2nd200 {
+  color: #CED4DA; }
+
+.textColor__2nd300 {
+  color: #707070; }
+
+.textColor__2nd400 {
+  color: #6C6C6C; }
+
+.textColor__2nd500 {
+  color: #555555; }
+
+.textColor__2nd600 {
+  color: #495057; }
+
+.textColor__2nd700 {
+  color: #212529; }
+
+.textColor__2nd800 {
+  color: #0A0A0A; }
+
+.textColor__3rd100 {
+  color: #B75929; }
+
+.textColor__3rd200 {
+  color: #5F3E2D; }
+
+.bgColor__1st100 {
+  background-color: #FBF2F2; }
+
+.bgColor__1st200 {
+  background-color: #9F1213; }
+
+.bgColor__1st300 {
+  background-color: #AA0601; }
+
+.bgColor__1st400 {
+  background-color: #650300; }
+
+.bgColor__2nd100 {
+  background-color: #F2F2F2; }
+
+.bgColor__2nd200 {
+  background-color: #CED4DA; }
+
+.bgColor__2nd300 {
+  background-color: #707070; }
+
+.bgColor__2nd400 {
+  background-color: #6C6C6C; }
+
+.bgColor__2nd500 {
+  background-color: #555555; }
+
+.bgColor__2nd600 {
+  background-color: #495057; }
+
+.bgColor__2nd700 {
+  background-color: #212529; }
+
+.bgColor__2nd800 {
+  background-color: #0A0A0A; }
+
+.bgColor__3rd100 {
+  background-color: #B75929; }
+
+.bgColor__3rd200 {
+  background-color: #5F3E2D; }
+
+.fontSize__1 {
+  font-size: 4.5rem; }
+
+.fontSize__2 {
+  font-size: 4rem; }
+
+.fontSize__3 {
+  font-size: 3rem; }
+
+.fontSize__4 {
+  font-size: 2.625rem; }
+
+.fontSize__5 {
+  font-size: 2.25rem; }
+
+.fontSize__6 {
+  font-size: 2rem; }
+
+.fontSize__7 {
+  font-size: 1.75rem; }
+
+.fontSize__8 {
+  font-size: 1.5rem; }
+
+.fontSize__9 {
+  font-size: 1.25rem; }
+
+.fontSize__10 {
+  font-size: 1.1875rem; }
+
+.fontSize__11 {
+  font-size: 1.125rem; }
+
+.fontSize__12 {
+  font-size: 1.0625rem; }
+
+.fontSize__13 {
+  font-size: 1rem; }
+
+.fontSize__14 {
+  font-size: 0.875rem; }
+
+.mt-3-5 {
+  margin-top: 20px; }
+
+.mt-4-4 {
+  margin-top: 32px; }
+
+.mt-4-8 {
+  margin-top: 40px; }
+
+.mt-6 {
+  margin-top: 56px; }
+
+.mt-7 {
+  margin-top: 64px; }
+
+.mt-8 {
+  margin-top: 72px; }
+
+.mt-9 {
+  margin-top: 80px; }
+
+.mt-10 {
+  margin-top: 96px; }
+
+.mt-11 {
+  margin-top: 104px; }
+
+.mt-12 {
+  margin-top: 160px; }
+
+.mb-3-5 {
+  margin-bottom: 20px; }
+
+.mb-4-4 {
+  margin-bottom: 32px; }
+
+.mb-4-8 {
+  margin-bottom: 40px; }
+
+.mb-6 {
+  margin-bottom: 56px; }
+
+.mb-7 {
+  margin-bottom: 64px; }
+
+.mb-8 {
+  margin-bottom: 72px; }
+
+.mb-9 {
+  margin-bottom: 80px; }
+
+.mb-10 {
+  margin-bottom: 96px; }
+
+.mb-11 {
+  margin-bottom: 104px; }
+
+.mb-12 {
+  margin-bottom: 160px; }
+
+.ms-3-5 {
+  margin-left: 20px; }
+
+.ms-4-4 {
+  margin-left: 32px; }
+
+.ms-4-8 {
+  margin-left: 40px; }
+
+.ms-6 {
+  margin-left: 56px; }
+
+.ms-7 {
+  margin-left: 64px; }
+
+.ms-8 {
+  margin-left: 72px; }
+
+.ms-9 {
+  margin-left: 80px; }
+
+.ms-10 {
+  margin-left: 96px; }
+
+.ms-11 {
+  margin-left: 104px; }
+
+.ms-12 {
+  margin-left: 160px; }
+
+.me-3-5 {
+  margin-right: 20px; }
+
+.me-4-4 {
+  margin-right: 32px; }
+
+.me-4-8 {
+  margin-right: 40px; }
+
+.me-6 {
+  margin-right: 56px; }
+
+.me-7 {
+  margin-right: 64px; }
+
+.me-8 {
+  margin-right: 72px; }
+
+.me-9 {
+  margin-right: 80px; }
+
+.me-10 {
+  margin-right: 96px; }
+
+.me-11 {
+  margin-right: 104px; }
+
+.me-12 {
+  margin-right: 160px; }
+
+.my-3-5 {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.my-4-4 {
+  margin-top: 32px;
+  margin-bottom: 32px; }
+
+.my-4-8 {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.my-6 {
+  margin-top: 56px;
+  margin-bottom: 56px; }
+
+.my-7 {
+  margin-top: 64px;
+  margin-bottom: 64px; }
+
+.my-8 {
+  margin-top: 72px;
+  margin-bottom: 72px; }
+
+.my-9 {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
+.my-10 {
+  margin-top: 96px;
+  margin-bottom: 96px; }
+
+.my-11 {
+  margin-top: 104px;
+  margin-bottom: 104px; }
+
+.my-12 {
+  margin-top: 160px;
+  margin-bottom: 160px; }
+
+.mx-3-5 {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.mx-4-4 {
+  margin-left: 32px;
+  margin-right: 32px; }
+
+.mx-4-8 {
+  margin-left: 40px;
+  margin-right: 40px; }
+
+.mx-6 {
+  margin-left: 56px;
+  margin-right: 56px; }
+
+.mx-7 {
+  margin-left: 64px;
+  margin-right: 64px; }
+
+.mx-8 {
+  margin-left: 72px;
+  margin-right: 72px; }
+
+.mx-9 {
+  margin-left: 80px;
+  margin-right: 80px; }
+
+.mx-10 {
+  margin-left: 96px;
+  margin-right: 96px; }
+
+.mx-11 {
+  margin-left: 104px;
+  margin-right: 104px; }
+
+.mx-12 {
+  margin-left: 160px;
+  margin-right: 160px; }
+
+.pt-3-5 {
+  padding-top: 20px; }
+
+.pt-4-4 {
+  padding-top: 32px; }
+
+.pt-4-8 {
+  padding-top: 40px; }
+
+.pt-6 {
+  padding-top: 56px; }
+
+.pt-7 {
+  padding-top: 64px; }
+
+.pt-8 {
+  padding-top: 72px; }
+
+.pt-9 {
+  padding-top: 80px; }
+
+.pt-10 {
+  padding-top: 96px; }
+
+.pt-11 {
+  padding-top: 104px; }
+
+.pt-12 {
+  padding-top: 160px; }
+
+.pb-3-5 {
+  padding-bottom: 20px; }
+
+.pb-4-4 {
+  padding-bottom: 32px; }
+
+.pb-4-8 {
+  padding-bottom: 40px; }
+
+.pb-6 {
+  padding-bottom: 56px; }
+
+.pb-7 {
+  padding-bottom: 64px; }
+
+.pb-8 {
+  padding-bottom: 72px; }
+
+.pb-9 {
+  padding-bottom: 80px; }
+
+.pb-10 {
+  padding-bottom: 96px; }
+
+.pb-11 {
+  padding-bottom: 104px; }
+
+.pb-12 {
+  padding-bottom: 160px; }
+
+.ps-3-5 {
+  padding-left: 20px; }
+
+.ps-4-4 {
+  padding-left: 32px; }
+
+.ps-4-8 {
+  padding-left: 40px; }
+
+.ps-6 {
+  padding-left: 56px; }
+
+.ps-7 {
+  padding-left: 64px; }
+
+.ps-8 {
+  padding-left: 72px; }
+
+.ps-9 {
+  padding-left: 80px; }
+
+.ps-10 {
+  padding-left: 96px; }
+
+.ps-11 {
+  padding-left: 104px; }
+
+.ps-12 {
+  padding-left: 160px; }
+
+.pe-3-5 {
+  padding-right: 20px; }
+
+.pe-4-4 {
+  padding-right: 32px; }
+
+.pe-4-8 {
+  padding-right: 40px; }
+
+.pe-6 {
+  padding-right: 56px; }
+
+.pe-7 {
+  padding-right: 64px; }
+
+.pe-8 {
+  padding-right: 72px; }
+
+.pe-9 {
+  padding-right: 80px; }
+
+.pe-10 {
+  padding-right: 96px; }
+
+.pe-11 {
+  padding-right: 104px; }
+
+.pe-12 {
+  padding-right: 160px; }
+
+.py-3-5 {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.py-4-4 {
+  padding-top: 32px;
+  padding-bottom: 32px; }
+
+.py-4-8 {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.py-6 {
+  padding-top: 56px;
+  padding-bottom: 56px; }
+
+.py-7 {
+  padding-top: 64px;
+  padding-bottom: 64px; }
+
+.py-8 {
+  padding-top: 72px;
+  padding-bottom: 72px; }
+
+.py-9 {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.py-10 {
+  padding-top: 96px;
+  padding-bottom: 96px; }
+
+.py-11 {
+  padding-top: 104px;
+  padding-bottom: 104px; }
+
+.py-12 {
+  padding-top: 160px;
+  padding-bottom: 160px; }
+
+.px-3-5 {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.px-4-4 {
+  padding-left: 32px;
+  padding-right: 32px; }
+
+.px-4-8 {
+  padding-left: 40px;
+  padding-right: 40px; }
+
+.px-6 {
+  padding-left: 56px;
+  padding-right: 56px; }
+
+.px-7 {
+  padding-left: 64px;
+  padding-right: 64px; }
+
+.px-8 {
+  padding-left: 72px;
+  padding-right: 72px; }
+
+.px-9 {
+  padding-left: 80px;
+  padding-right: 80px; }
+
+.px-10 {
+  padding-left: 96px;
+  padding-right: 96px; }
+
+.px-11 {
+  padding-left: 104px;
+  padding-right: 104px; }
+
+.px-12 {
+  padding-left: 160px;
+  padding-right: 160px; }
+
+@media (max-width: 992px) {
+  .fontSize__5 {
+    font-size: 1.25rem; } }
+
+@media (max-width: 576px) {
+  .fontSize__5 {
+    font-size: 1rem; } }
+
+@media (max-width: 992px) {
+  .ps-4 {
+    padding-left: 20px; } }
+
+@media (max-width: 992px) {
+  .ps-4-4 {
+    padding-left: 20px; } }
+
+@media (max-width: 576px) {
+  .ps-4-4 {
+    padding-left: 0; } }
+
+@media (max-width: 992px) {
+  .pe-4 {
+    padding-right: 20px; } }
+
+@media (max-width: 992px) {
+  .pe-4-4 {
+    padding-right: 20px; } }
+
+@media (max-width: 576px) {
+  .pe-4-4 {
+    padding-right: 0; } }
+
+@media (max-width: 992px) {
+  .px-4 {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media (max-width: 992px) {
+  .px-4-4 {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media (max-width: 576px) {
+  .px-4-4 {
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media (max-width: 992px) {
+  .px-9 {
+    padding-left: 40px;
+    padding-right: 40px; } }
+
+@media (max-width: 576px) {
+  .px-9 {
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media (max-width: 992px) {
+  .mx-4-4 {
+    margin-left: 24px;
+    margin-right: 24px; } }
+
+@media (max-width: 576px) {
+  .W50 {
+    width: 50%; } }
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
+
+.logo {
+  display: block;
+  width: 80px;
+  height: 49px;
+  background: url(https://hexschool.github.io/webLayoutTraining1st/week3/logo.png) no-repeat;
+  background-size: cover;
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden; }
+  @media (max-width: 576px) {
+    .logo {
+      width: 48px;
+      height: 30px; } }
+
+@media (max-width: 992px) {
+  .socialIcon {
+    width: 50%; } }
+
+@media (max-width: 992px) {
+  .infoIcon {
+    width: 20px; } }
+
+@media (max-width: 576px) {
+  .infoIcon {
+    width: 16px; } }
+
+@media (max-width: 576px) {
+  .bdWhite {
+    border: 1px solid #ffffff; } }
+
+@media (max-width: 992px) {
+  .pt-7 {
+    padding-top: 40px; } }
+
+@media (max-width: 576px) {
+  .pt-7 {
+    padding-top: 32px; } }
+
+@media (max-width: 992px) {
+  .pb-9 {
+    padding-bottom: 56px; } }
+
+@media (max-width: 576px) {
+  .pb-9 {
+    padding-bottom: 40px; } }
+
+@media (max-width: 992px) {
+  .mb-3-5 {
+    margin-bottom: 16px; } }
+
+@media (max-width: 576px) {
+  .mb-3-5 {
+    margin-bottom: 8px; } }
+
+.mb-4-8 {
+  margin-bottom: 40px; }
+  @media (max-width: 992px) {
+    .mb-4-8 {
+      margin-bottom: 32px; } }
+  @media (max-width: 576px) {
+    .mb-4-8 {
+      margin-bottom: 20px; } }
+
+@media (max-width: 992px) {
+  .mb-6 {
+    margin-bottom: 40px; } }
+
+@media (max-width: 576px) {
+  .mb-6 {
+    margin-bottom: 28px; } }
+
+.py-banner {
+  padding-top: 348px;
+  padding-bottom: 352px; }
+  @media (max-width: 992px) {
+    .py-banner {
+      padding-top: 372px;
+      padding-bottom: 372px; } }
+  @media (max-width: 576px) {
+    .py-banner {
+      padding-top: 164px;
+      padding-bottom: 164px; } }
+
+.bannerBg {
+  background: url(https://hexschool.github.io/webLayoutTraining1st/week3/banner.png) no-repeat center center;
+  background-size: cover; }
+
+.banner_title {
+  font-weight: 700;
+  color: #650300;
+  font-size: 4rem; }
+  @media (max-width: 992px) {
+    .banner_title {
+      font-size: 3rem; } }
+  @media (max-width: 576px) {
+    .banner_title {
+      font-size: 2rem; } }
+
+.banner_subTitle {
+  font-weight: 400;
+  color: #650300;
+  font-size: 2.25rem; }
+  @media (max-width: 992px) {
+    .banner_subTitle {
+      font-size: 1.25rem; } }
+  @media (max-width: 576px) {
+    .banner_subTitle {
+      font-size: 1rem; } }
+
+.indexTitle {
+  font-weight: 700;
+  font-size: 3rem; }
+  @media (max-width: 992px) {
+    .indexTitle {
+      font-size: 2rem; } }
+  @media (max-width: 576px) {
+    .indexTitle {
+      font-size: 1.5rem; } }
+
+.feature_title {
+  font-weight: 700;
+  color: #650300;
+  font-size: 1.5rem; }
+
+.feature_content {
+  font-weight: 400;
+  font-size: 1rem; }
+
+.class_title {
+  font-style: italic;
+  font-weight: 800;
+  color: #AA0601;
+  font-size: 3rem; }
+  @media (max-width: 992px) {
+    .class_title {
+      font-size: 1.75rem; } }
+
+@media (max-width: 576px) {
+  .positionCenter_mobile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); } }
+
+.positionCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.designBg {
+  background: url(https://hexschool.github.io/webLayoutTraining1st/week3/bg.png) no-repeat center center;
+  background-size: cover; }
+
+.design_title {
+  font-weight: 700;
+  color: #AA0601;
+  font-size: 4.5rem; }
+  @media (max-width: 992px) {
+    .design_title {
+      font-size: 2rem; } }
+
+.userCard_name {
+  font-weight: 500;
+  font-size: 0.875rem; }
+
+.userCard_description {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal; }
+
+.userCard_date {
+  font-weight: 400;
+  color: #707070;
+  font-size: 0.875rem; }
+
+@media (max-width: 992px) {
+  .mb-4-8 {
+    margin-bottom: 32px; } }
+
+@media (max-width: 576px) {
+  .mb-4-8 {
+    margin-bottom: 20px; } }
+
+@media (max-width: 992px) {
+  .mb-9 {
+    margin-bottom: 56px; } }
+
+@media (max-width: 576px) {
+  .mb-9 {
+    margin-bottom: 32px; } }
+
+@media (max-width: 992px) {
+  .mb-11 {
+    margin-bottom: 72px; } }
+
+@media (max-width: 576px) {
+  .mb-11 {
+    margin-bottom: 32px; } }
+
+@media (max-width: 992px) {
+  .pb-12 {
+    padding-bottom: 96px; } }
+
+@media (max-width: 576px) {
+  .pb-12 {
+    padding-bottom: 80px; } }
+
+.productTitle {
+  font-weight: 500;
+  font-size: 2.625rem; }
+  @media (max-width: 992px) {
+    .productTitle {
+      font-size: 2rem; } }
+  @media (max-width: 576px) {
+    .productTitle {
+      font-size: 1.25rem; } }
+  .productTitleSubTitle {
+    font-weight: 400;
+    font-size: 2rem; }
+    @media (max-width: 992px) {
+      .productTitleSubTitle {
+        font-size: 1.5rem; } }
+    @media (max-width: 576px) {
+      .productTitleSubTitle {
+        font-size: 1rem; } }
+
+.nav-link {
+  font-weight: 500;
+  color: #000000;
+  padding: 1.5rem 5.75rem;
+  font-size: 2rem; }
+  @media (max-width: 992px) {
+    .nav-link {
+      padding: 0.875rem 1.4375rem; } }
+  @media (max-width: 576px) {
+    .nav-link {
+      padding: 0.375rem 1.125rem; } }
+  @media (max-width: 992px) {
+    .nav-link {
+      font-size: 1.5rem; } }
+  @media (max-width: 576px) {
+    .nav-link {
+      font-size: 0.875rem; } }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #000000;
+  background-color: #fff;
+  border-bottom: 8px solid #AA0601; }
+
+.productBanner {
+  padding-top: 31%;
+  background-size: cover;
+  background-position: center; }
+  @media (max-width: 992px) {
+    .productBanner {
+      padding-top: 79%; } }
+
+.productBannerOptical-glass {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/banner-1.png); }
+
+.productBannerOptical-face {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/banner-2.png); }
+
+.productCard_img {
+  padding-top: 62%;
+  background-size: cover; }
+  @media (max-width: 992px) {
+    .productCard_img {
+      padding-top: 49%; } }
+  @media (max-width: 576px) {
+    .productCard_img {
+      padding-top: 48%; } }
+
+.productCard_img-1 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-1.png); }
+
+.productCard_img-2 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-7.jpg); }
+
+.productCard_img-3 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-8.jpg); }
+
+.productCard_img-4 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-10.jpg); }
+
+.productCard_img-5 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-9.jpg); }
+
+.productCard_img-6 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-12.jpg); }
+
+.productCard_img-7 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-1.png); }
+
+.productCard_img-8 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-7.jpg); }
+
+.productCard_img-9 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-8.jpg); }
+
+.productCard_img-10 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-10.jpg); }
+
+.productCard_img-11 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-9.jpg); }
+
+.productCard_img-12 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-12.jpg); }
+
+.productCard_img-13 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-4.png); }
+
+.productCard_img-14 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-3.png); }
+
+.productCard_img-15 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-2.png); }
+
+.productCard_img-16 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-6.jpg); }
+
+.productCard_img-17 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-11.jpg); }
+
+.productCard_img-18 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-5.jpg); }
+
+.productCard_info {
+  font-size: 1.5rem; }
+  @media (max-width: 576px) {
+    .productCard_info {
+      font-size: 1rem; } }
+
+.productCard_type {
+  font-weight: 400; }
+
+.productCard_price {
+  font-weight: 500;
+  color: #AA0601; }
+
+.productCard_color {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px; }
+  @media (max-width: 576px) {
+    .productCard_color {
+      width: 16px;
+      height: 16px; } }
+
+.productBannerSunglasses-glass {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/banner-3.png); }
+
+.productBannerSunglasses-face {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/product-2-color.png); }
+
+.page-link {
+  color: #555555; }
+  .page-link:hover {
+    color: #ffffff;
+    background-color: #000000; }
+
+@media (max-width: 992px) {
+  .mb-7 {
+    margin-bottom: 40px; } }
+
+@media (max-width: 576px) {
+  .mb-7 {
+    margin-bottom: 24px; } }
+
+@media (max-width: 992px) {
+  .pt-10 {
+    padding-top: 64px; } }
+
+@media (max-width: 992px) {
+  .pb-12 {
+    padding-bottom: 96px; } }
+
+@media (max-width: 576px) {
+  .pb-12 {
+    padding-bottom: 56px; } }
+
+.title {
+  border-left: 8px solid #9F1213;
+  font-weight: 700;
+  font-size: 3rem; }
+  @media (max-width: 992px) {
+    .title {
+      border-left: 4px solid #9F1213; } }
+  @media (max-width: 576px) {
+    .title {
+      font-size: 1.75rem; } }
+
+.locationSubTitle {
+  font-weight: 400;
+  font-size: 1.5rem; }
+  @media (max-width: 992px) {
+    .locationSubTitle {
+      font-size: 1rem; } }
+  @media (max-width: 576px) {
+    .locationSubTitle {
+      font-size: 0.875rem; } }
+
+.storeName {
+  width: 324px;
+  font-weight: 400;
+  font-size: 1.125rem; }
+  @media (max-width: 992px) {
+    .storeName {
+      width: 237px; } }
+  @media (max-width: 576px) {
+    .storeName {
+      width: 277px; } }
+  @media (max-width: 992px) {
+    .storeName {
+      font-size: 1rem; } }
+  @media (max-width: 576px) {
+    .storeName {
+      font-size: 0.875rem; } }
+
+.locationCard_img {
+  padding-top: 64%;
+  background-size: cover; }
+  @media (max-width: 992px) {
+    .locationCard_img {
+      padding-top: 49%; } }
+  @media (max-width: 576px) {
+    .locationCard_img {
+      padding-top: 47%; } }
+
+.locationCard_img-1 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/locate1.jpeg); }
+
+.locationCard_img-2 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/locate2.jpg); }
+
+.locationCard_img-3 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/locate3.jpg); }
+
+.locationCard_img-4 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/locate4.jpg); }
+
+.locationCard_img-5 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/locate5.jpg); }
+
+.locationCard_title {
+  font-weight: 400;
+  font-size: 1.5rem; }
+
+.locationCard_info {
+  font-weight: 400;
+  font-size: 1.25rem; }
+  @media (max-width: 992px) {
+    .locationCard_info {
+      font-size: 0.875rem; } }
+
+.locationCard_button {
+  background-color: #000000; }
+
+@media (max-width: 992px) {
+  .ps-10 {
+    padding-left: 40px; } }
+
+@media (max-width: 576px) {
+  .ps-10 {
+    padding-left: 0px; } }
+
+.faqTitle {
+  font-weight: 700;
+  font-size: 2rem; }
+  @media (max-width: 576px) {
+    .faqTitle {
+      font-weight: 400;
+      font-size: 1.25rem; } }
+
+.faqQuestion {
+  font-weight: 700;
+  font-size: 1.25rem; }
+  @media (max-width: 576px) {
+    .faqQuestion {
+      font-size: 1rem; } }
+
+.faqAnswer {
+  font-weight: 400;
+  font-size: 1rem; }
+  @media (max-width: 576px) {
+    .faqAnswer {
+      font-size: 0.875rem; } }
+
+@media (max-width: 992px) {
+  .pt-4-8 {
+    padding-top: 32px; } }
+
+@media (max-width: 576px) {
+  .pt-4-8 {
+    padding-top: 28px; } }
+
+@media (max-width: 576px) {
+  .pt-4-8 {
+    margin-bottom: 40px; } }
+
+@media (max-width: 992px) {
+  .mb-10 {
+    margin-bottom: 64px; } }
+
+.subMenu {
+  font-weight: 700;
+  font-size: 1.25rem; }
+  @media (max-width: 576px) {
+    .subMenu {
+      font-size: 1rem; } }
+
+.menuSearch {
+  font-size: 1.875rem; }
+
+.blogCard_title {
+  font-weight: 400;
+  font-size: 2rem; }
+  @media (max-width: 992px) {
+    .blogCard_title {
+      font-size: 1.25rem; } }
+  @media (max-width: 576px) {
+    .blogCard_title {
+      font-size: 1rem; } }
+
+.blogCard_subTitle {
+  font-weight: 500;
+  font-size: 1.25rem; }
+  @media (max-width: 992px) {
+    .blogCard_subTitle {
+      font-size: 1rem; } }
+  @media (max-width: 576px) {
+    .blogCard_subTitle {
+      font-size: 0.875rem; } }
+
+.blogCard_date {
+  font-weight: 500;
+  opacity: 0.7;
+  font-size: 1rem; }
+  @media (max-width: 992px) {
+    .blogCard_date {
+      font-size: 0.875rem; } }
+
+.blogCard_detail {
+  font-weight: 400;
+  color: #555555;
+  font-size: 1.25rem; }
+  @media (max-width: 992px) {
+    .blogCard_detail {
+      position: relative;
+      font-size: 0.875rem; } }
+
+.blogCard_moreLink-lg {
+  font-weight: 900;
+  color: #650300;
+  font-size: 2.25rem; }
+
+.blogCard_moreLink-sm {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-weight: 700;
+  color: #555555;
+  font-size: 0.875rem; }
+
+@media (max-width: 992px) {
+  .mb-12 {
+    margin-bottom: 96px; } }
+
+@media (max-width: 576px) {
+  .mb-12 {
+    margin-bottom: 32px; } }
+
+.breadcrumb-item.active {
+  color: #AA0601; }
+
+.tags_mainItems {
+  font-weight: 700;
+  color: #AA0601;
+  font-size: 1.5rem; }
+  @media (max-width: 992px) {
+    .tags_mainItems {
+      font-size: 1rem; } }
+  @media (max-width: 576px) {
+    .tags_mainItems {
+      font-size: 0.875rem; } }
+
+.tags_title {
+  font-weight: 700;
+  color: #AA0601;
+  font-size: 1.75rem; }
+  @media (max-width: 992px) {
+    .tags_title {
+      font-size: 1.25rem; } }
+
+.tags_subItems {
+  font-weight: 700;
+  color: #AA0601;
+  font-size: 1.5rem; }
+  @media (max-width: 992px) {
+    .tags_subItems {
+      font-size: 1rem; } }
+
+.tags_share {
+  font-weight: 700;
+  color: #0A0A0A;
+  font-size: 1.25rem; }
+  @media (max-width: 992px) {
+    .tags_share {
+      font-size: 1rem; } }
+
+.blogSpecial_title {
+  font-weight: 400;
+  font-size: 3rem; }
+  @media (max-width: 992px) {
+    .blogSpecial_title {
+      font-size: 2rem; } }
+  @media (max-width: 576px) {
+    .blogSpecial_title {
+      font-size: 1.25rem; } }
+
+.blogSpecial_subTitle {
+  font-weight: 500;
+  font-size: 1.75rem; }
+  @media (max-width: 992px) {
+    .blogSpecial_subTitle {
+      font-size: 1rem; } }
+  @media (max-width: 576px) {
+    .blogSpecial_subTitle {
+      font-size: 0.875rem; } }
+
+.blogSpecial_date {
+  font-weight: 500;
+  color: #6C6C6C;
+  font-size: 1rem; }
+  @media (max-width: 992px) {
+    .blogSpecial_date {
+      font-size: 0.875rem; } }
+
+.blogSpecial_detail {
+  font-weight: 300;
+  opacity: 6;
+  font-size: 1.25rem; }
+  @media (max-width: 992px) {
+    .blogSpecial_detail {
+      font-size: 1rem; } }
+
+.blogSpecial_pageTitle {
+  font-weight: 400;
+  font-size: 1.1875rem; }
+  @media (max-width: 992px) {
+    .blogSpecial_pageTitle {
+      font-size: 1rem; } }
+  @media (max-width: 576px) {
+    .blogSpecial_pageTitle {
+      font-size: 0.875rem; } }
+
+.mirrorRotateLevel {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  /* 水平镜像翻转 */ }
+
+/*# sourceMappingURL=all.css.map */
