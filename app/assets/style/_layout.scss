@@ -1,0 +1,123 @@
+.fontSize__5{
+    @include pad{
+        font-size: $fontSize__base*1.25;
+        // 20px
+    }
+    @include mobile{
+        font-size: $fontSize__base*1;
+        // 16px
+    }
+}
+.ps-4{
+    @include pad{
+        padding-left: $spacing_base*5;
+        // 20      
+    }
+}
+.ps-4-4{
+    @include pad{
+        padding-left: $spacing_base*5;
+        // 20      
+    }
+    @include mobile{
+        padding-left: 0;
+        // 0      
+    }
+}
+.pe-4{
+    @include pad{
+        padding-right: $spacing_base*5;
+        // 20        
+    }
+}
+.pe-4-4{
+    @include pad{
+        padding-right: $spacing_base*5;
+        // 20        
+    }
+    @include mobile{
+        padding-right: 0;
+        // 0      
+    }
+}
+.px-4{
+    @include pad{
+        padding-left: $spacing_base*5;
+        padding-right: $spacing_base*5;
+        // 20       
+    }
+}
+.px-4-4{
+    @include pad{
+        padding-left: $spacing_base*5;
+        padding-right: $spacing_base*5;
+        // 20       
+    }
+    @include mobile{
+        padding-left: 0;
+        padding-right: 0;
+        // 0      
+    }
+}
+.px-9{
+    @include pad{
+        padding-left: $spacing_base*10;
+        padding-right: $spacing_base*10;
+        // 40        
+    }
+    @include mobile{
+        padding-left: 0;
+        padding-right: 0;
+        // 0      
+    }
+}
+.mx-4-4{
+    @include pad{
+        margin-left: $spacing_base*6;
+        margin-right: $spacing_base*6;
+        // 24
+    }
+}
+
+.W50{
+    @include mobile{
+        width: 50%;
+    }
+}
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.logo{
+    display: block;
+    width: 80px;
+    height: 49px;
+    background: url(https://hexschool.github.io/webLayoutTraining1st/week3/logo.png) no-repeat;
+    background-size: cover;
+    @include hideText;
+    @include mobile {
+        width: 48px;
+        height: 30px;
+    }
+}
+.socialIcon{
+    @include pad{
+        width: 50%;
+    }
+}
+.infoIcon{
+    @include pad{
+        width: 20px;
+    }
+    @include mobile{
+        width: 16px;
+    }
+}
+.bdWhite{
+    @include mobile{
+       border: 1px solid #ffffff; 
+    }    
+}
+
+

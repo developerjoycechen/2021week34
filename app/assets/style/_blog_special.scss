@@ -1,0 +1,124 @@
+.mb-12{
+    @include pad{
+        margin-bottom: $spacing_base*24;
+        // 96
+    }
+    @include mobile{
+        margin-bottom: $spacing_base*8;
+        // 32
+    }
+}
+
+.breadcrumb-item.active {
+    color: $red300;
+}
+.tags_mainItems{
+    font-weight: 700;
+    color: $red300;
+    font-size: $fontSize__base*1.5;
+    // 24px
+    @include pad{
+        font-size: $fontSize__base*1;
+        // 16px
+    }
+    @include mobile{
+        font-size: $fontSize__base*0.875;
+        // 14px
+    }
+}
+.tags{
+    &_title{
+        font-weight: 700;
+        color: $red300;
+        font-size: $fontSize__base*1.75;
+        // 28px
+        @include pad{
+            font-size: $fontSize__base*1.25;
+            // 20px
+        }
+    }
+    &_subItems{
+        font-weight: 700;
+        color: $red300;
+        font-size: $fontSize__base*1.5;
+        // 24px
+        @include pad{
+            font-size: $fontSize__base*1;
+            // 16px
+        }
+    }
+    &_share{
+        font-weight: 700;
+        color: $gray800;
+        font-size: $fontSize__base*1.25;
+        // 20px
+        @include pad{
+            font-size: $fontSize__base*1;
+            // 16px
+        }
+    }
+}
+.blogSpecial{
+    &_title{
+        font-weight: 400;
+        font-size: $fontSize__base*3;
+        // 48px
+        @include pad{
+            font-size: $fontSize__base*2;
+            // 32px
+        }
+        @include mobile{
+            font-size: $fontSize__base*1.25;
+            // 20px
+        }
+    }
+    &_subTitle{
+        font-weight: 500;
+        font-size: $fontSize__base*1.75;
+        // 28px
+        @include pad{
+            font-size: $fontSize__base*1;
+            // 16px
+        }
+        @include mobile{
+            font-size: $fontSize__base*0.875;
+            // 14px
+        }
+    }
+    &_date{
+        font-weight: 500;
+        color: $gray400;
+        font-size: $fontSize__base*1;
+        // 16px
+        @include pad{
+            font-size: $fontSize__base*0.875;
+            // 14px
+        }
+    }
+    &_detail{
+        font-weight: 300;
+        opacity: 6;
+        font-size: $fontSize__base*1.25;
+        // 20px
+        @include pad{
+            font-size: $fontSize__base*1;
+            // 16px
+        }
+    }
+    &_pageTitle{
+        font-weight: 400;
+        font-size: $fontSize__base*1.1875;
+        // 19px
+        @include pad{
+            font-size: $fontSize__base*1;
+            // 16px
+        }
+        @include mobile{
+            font-size: $fontSize__base*0.875;
+            // 14px
+        }
+    }
+}
+.mirrorRotateLevel {
+    transform: rotateY(180deg);   /* 水平镜像翻转 */
+}

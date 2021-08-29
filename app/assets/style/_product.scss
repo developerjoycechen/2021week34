@@ -1,0 +1,214 @@
+.mb-4-8{
+    @include pad{
+        margin-bottom: $spacing_base*8;
+        // 32
+    }
+    @include mobile{
+        margin-bottom: $spacing_base*5;
+        // 20
+    }
+}
+.mb-9{
+    @include pad{
+        margin-bottom: $spacing_base*14;
+        // 56
+    }
+    @include mobile{
+        margin-bottom: $spacing_base*8;
+        // 32
+    }
+}
+.mb-11{
+    @include pad{
+        margin-bottom: $spacing_base*18;
+        // 72
+    }
+    @include mobile{
+        margin-bottom: $spacing_base*8;
+        // 32
+    }
+}
+.pb-12{
+    @include pad{
+        padding-bottom: $spacing_base*24;
+        // 96
+    }
+    @include mobile{
+        padding-bottom: $spacing_base*20;
+        // 80
+    }
+}
+
+.productTitle{
+    font-weight: 500;
+    font-size: $fontSize__base*2.625;
+    // 42px
+    @include pad{
+        font-size: $fontSize__base*2;
+        // 32px
+    }
+    @include mobile{
+        font-size: $fontSize__base*1.25;
+        // 20px
+    }
+    &SubTitle{
+        font-weight: 400;
+        font-size: $fontSize__base*2;
+        // 32px
+        @include pad{
+            font-size: $fontSize__base*1.5;
+            // 24px
+        }
+        @include mobile{
+            font-size: $fontSize__base*1;
+            // 16px
+        }
+    }
+}
+.nav-link{
+    font-weight: 500;
+    color:#000000;
+    padding: 1.5rem 5.75rem;
+    @include pad{
+        padding: 0.875rem 1.4375rem;
+    }
+    @include mobile{
+        padding: 0.375rem 1.125rem;
+    }
+    font-size: $fontSize__base*2;
+    // 32px
+    @include pad{
+        font-size: $fontSize__base*1.5;
+        // 24px
+    }
+    @include mobile{
+        font-size: $fontSize__base*0.875;
+        // 14px
+    }
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color:#000000;
+    background-color: #fff;
+    border-bottom: 8px solid $red300;
+}
+.productBanner{
+    padding-top: 31%;
+    @include pad{
+        padding-top: 79%;
+    }
+    background-size: cover;
+    background-position: center;
+}
+.productBannerOptical{
+    &-glass{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/banner-1.png);
+    }
+    &-face{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/banner-2.png);
+    }
+}
+.productCard{
+    &_img{
+        padding-top: 62%;
+        @include pad{
+            padding-top: 49%;
+        }
+        @include mobile{
+            padding-top: 48%;
+        }
+        background-size: cover;
+    }
+    &_img-1{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-1.png);
+    }
+    &_img-2{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-7.jpg);
+    }
+    &_img-3{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-8.jpg);
+    }
+    &_img-4{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-10.jpg);
+    }
+    &_img-5{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-9.jpg);
+    }
+    &_img-6{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-12.jpg);
+    }
+    &_img-7{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-1.png);
+    }
+    &_img-8{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-7.jpg);
+    }
+    &_img-9{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-8.jpg);
+    }
+    &_img-10{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-10.jpg);
+    }
+    &_img-11{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-9.jpg);
+    }
+    &_img-12{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-12.jpg);
+    }
+    &_img-13{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-4.png);
+    }
+    &_img-14{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-3.png);
+    }
+    &_img-15{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-2.png);
+    }
+    &_img-16{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-6.jpg);
+    }
+    &_img-17{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-11.jpg);
+    }
+    &_img-18{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/products-5.jpg);
+    }
+    &_info{
+        font-size: $fontSize__base*1.5;
+        // 24px
+        @include mobile{
+            font-size: $fontSize__base*1;
+            // 16px
+        }
+    }
+    &_type{
+        font-weight: 400;
+    }
+    &_price{
+        font-weight: 500;
+        color:$red300;
+    }
+    &_color{
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+        @include mobile{
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+.productBannerSunglasses{
+    &-glass{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/banner-3.png);
+    }
+    &-face{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/product-2-color.png);
+    }
+}
+.page-link{
+    color: $gray500;
+    &:hover{
+        color: #ffffff;
+        background-color: #000000;
+    }
+}

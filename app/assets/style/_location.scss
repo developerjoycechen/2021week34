@@ -1,0 +1,117 @@
+.mb-7{
+    @include pad{
+        margin-bottom: $spacing_base*10;
+        // 40
+    }
+    @include mobile{
+        margin-bottom: $spacing_base*6;
+        // 24
+    }
+}
+.pt-10{
+    @include pad{
+        padding-top: $spacing_base*16;
+        // 64
+    }
+}
+.pb-12{
+    @include pad{
+        padding-bottom: $spacing_base*24;
+        // 96
+    }
+    @include mobile{
+        padding-bottom: $spacing_base*14;
+        // 56
+    }
+}
+
+.title{
+    border-left: 8px solid $red200;
+    @include pad{
+        border-left: 4px solid $red200;
+    }
+    font-weight: 700;
+    font-size: $fontSize__base*3;
+    // 48px
+    @include mobile{
+        font-size: $fontSize__base*1.75;
+        // 28px
+    }
+}
+.locationSubTitle{
+    font-weight: 400;
+    font-size: $fontSize__base*1.5;
+    // 24px
+    @include pad{
+        font-size: $fontSize__base*1;
+        // 16px
+    }
+    @include mobile{
+        font-size: $fontSize__base*0.875;
+        // 14px
+    }
+}
+.storeName{
+    width: 324px;
+    @include pad{
+        width: 237px;
+    }
+    @include mobile{
+        width: 277px;
+    }
+    font-weight: 400;
+    font-size: $fontSize__base*1.125;
+    // 18px
+    @include pad{
+        font-size: $fontSize__base*1;
+        // 16px
+    }
+    @include mobile{
+        font-size: $fontSize__base*0.875;
+        // 14px
+    }
+}
+.locationCard{
+    &_img{
+        padding-top: 64%;
+        @include pad{
+            padding-top: 49%;
+        }
+        @include mobile{
+            padding-top: 47%;
+        }
+        background-size: cover;
+    }
+    &_img-1{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/locate1.jpeg);
+    }
+    &_img-2{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/locate2.jpg);
+    }
+    &_img-3{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/locate3.jpg);
+    }
+    &_img-4{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/locate4.jpg);
+    }
+    &_img-5{
+        background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/locate5.jpg);
+    }
+    &_title{
+        font-weight: 400;
+        font-size: $fontSize__base*1.5;
+        // 24px
+    }
+    &_info{
+        font-weight: 400;
+        font-size: $fontSize__base*1.25;
+        // 20px
+        @include pad{
+            font-size: $fontSize__base*0.875;
+            // 14px
+        }
+    }
+    &_button{
+        background-color: #000000;
+    }
+}
